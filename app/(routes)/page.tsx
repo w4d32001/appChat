@@ -9,7 +9,7 @@ import Image from "next/image";
 export default function Home() {
   return (
    <main className="h-svh w-svw flex">
-    <div className="w-2/12 bg-white-200 flex flex-col gap-4 px-2">
+    <div className="w-3/12 bg-white-200 flex flex-col gap-4 px-2">
       <div className="h-20 flex items-center justify-center gap-4">
         <BotIcon strokeWidth={2} className="text-blue-800 text-3xl" />
         <h1 className="text-3xl text-blue-800 uppercase font-mono">DemoChat</h1>
@@ -25,7 +25,7 @@ export default function Home() {
         </div>
       </div>
     </div>
-    <div className="w-10/12 h-full bg-gray-300">
+    <div className="w-9/12 h-full bg-gray-300">
       <NavContact />
       <div className="p-8 w-full h-[calc(100vh-80px)]">
         <Chat />
